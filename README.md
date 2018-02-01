@@ -28,6 +28,7 @@ Reads from `/etc/hosts` and creates only local-data (forward) records for each e
 ## Unbound configuration Example
 
  [Example unbound.conf](https://raw.githubusercontent.com/rohan-molloy/unbound-dns/master/unbound.conf) 
+ 
  To use these adblock examples, place them in `/etc/unbound/local.d/`
 - `lan-data-example.conf`
 Data created from host-file `hosts.example` using hosts-to-unbound.sh
