@@ -30,13 +30,13 @@ Reads from `/etc/hosts` and creates only local-data (forward) records for each e
  [Example unbound.conf](https://raw.githubusercontent.com/rohan-molloy/unbound-dns/master/unbound.conf) 
  
  To use these adblock examples, place them in `/etc/unbound/local.d/`
-- `lan-data-example.conf`
+- `lan-data-example.conf`  
 Data created from host-file `hosts.example` using hosts-to-unbound.sh
 
-- `adblock-spoof-example.conf`
+- `adblock-spoof-example.conf`  
 Ad-domains from https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts redirecting to `127.0.0.2`
 
-- `adblock-refuse-example.conf`
+- `adblock-refuse-example.conf`  
 Ad-domains from https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts responding with `NXDOMAIN`
 
 ## Lighttpd Pixel server
